@@ -1,0 +1,18 @@
+(ns org.apache.commons.collections4.multiset.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.apache.commons.collections4.multiset.AbstractMapMultiSet$EntrySetIterator])
+(require '[org.apache.commons.collections4.multiset.AbstractMapMultiSet$MultiSetEntry])
+(require '[org.apache.commons.collections4.multiset.AbstractMapMultiSet$MutableInteger])
+(require '[org.apache.commons.collections4.multiset.AbstractMapMultiSet$UniqueSetIterator])
+(require '[org.apache.commons.collections4.multiset.AbstractMapMultiSet])
+(require '[org.apache.commons.collections4.multiset.AbstractMultiSet$AbstractEntry])
+(require '[org.apache.commons.collections4.multiset.AbstractMultiSet$EntrySet])
+(require '[org.apache.commons.collections4.multiset.AbstractMultiSet$UniqueSet])
+(require '[org.apache.commons.collections4.multiset.AbstractMultiSet])
+(require '[org.apache.commons.collections4.multiset.AbstractMultiSetDecorator])
+(require '[org.apache.commons.collections4.multiset.HashMultiSet])
+(require '[org.apache.commons.collections4.multiset.PredicatedMultiSet])
+(require '[org.apache.commons.collections4.multiset.SynchronizedMultiSet])
+(require '[org.apache.commons.collections4.multiset.UnmodifiableMultiSet])
